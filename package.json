@@ -4,7 +4,7 @@
   "description": "ES = ECMAScript\r 6 = Versão (Corresponde ao ECMAScript 2015).",
   "main": "index.js",
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "dev": "babel ./template-literals.js ./const-let.js -o ./bundle.js -w"
   },
   "repository": {
     "type": "git",
